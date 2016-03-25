@@ -1,0 +1,21 @@
+
+uname: pi
+password: raspberry
+
+sudo ifconfig eth0 169.254.12.88
+
+gpio mode 0 out
+
+gpio write 0 1
+
+gpio write 0 0
+
+***
+
+gpio -g write 17 1
+
+gpio -g write 17 0
+
+for i in 0 1; do gpio -g write 17 $i; done
+
+sudo shutdown -h now
