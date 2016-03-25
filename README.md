@@ -15,3 +15,5 @@ java -classpath D:/projects/iot/pi4j-1.0/pi4j-1.0/lib/*.jar;spark.jar com.iot.sa
 sudo java -jar spark.jar ReadPirSensor 10,07
 
 sudo java -jar spark.jar multiplesensors 27,23-28,24-29,25
+
+![Alt text](/img/20160306_171107.jpg?raw=true "Architecture")
